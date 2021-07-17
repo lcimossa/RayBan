@@ -3,7 +3,7 @@
   text-align: center;
   background-image: url(img/Opticos/VideoBG.png);
   color: antiquewhite;
-  margin-bottom: 25px;
+  margin-bottom: 55px;
 }
 
 .video .video__Portada .container__Portada .row__Portada .col__Portada .video__Titulo {
@@ -55,6 +55,7 @@
 
 .muestras__logo {
   height: 50px;
+  margin-bottom: 35px;
 }
 
 .muestras__container {
@@ -145,6 +146,7 @@
 
 .banner__container {
   width: 100%;
+  margin-bottom: 35px;
 }
 
 header {

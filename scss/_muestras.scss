@@ -27,6 +27,7 @@ $width:10%; //Operaciones - Variables
 }
 .muestras__logo{
     height: 50px;
+    margin-bottom: 35px;
 }
 .muestras__container{
     @include muestras(0px,30px); //MIXIN - INCLUDE
