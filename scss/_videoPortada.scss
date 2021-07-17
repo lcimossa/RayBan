@@ -1,0 +1,38 @@
+.video{
+    text-align: center;
+    background-image: url(img/Opticos/VideoBG.png);
+    color:antiquewhite;
+    margin-bottom: 25px;
+        .video__Portada{
+            .container__Portada{
+             
+                .row__Portada{
+                    .col__Portada{
+                        .video__Titulo{
+                            text-align: center;
+                            align-items: center;
+                            font-family: 'Poppins', sans-serif;
+                            color: rgba(36, 36, 36, 0.945);
+                            padding: 10px;
+                            margin-bottom: 20px;
+                            margin-top: 25px;
+                            .video__Parrafo{
+                                color:rgb(22, 21, 19);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .row{
+            .col-12{
+                    video {
+                        width: 85%    !important;
+                        height: auto   !important;
+                    } 
+            }
+        }
+}
+
+
+

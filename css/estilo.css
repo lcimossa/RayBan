@@ -1,0 +1,247 @@
+@charset "UTF-8";
+.video {
+  text-align: center;
+  background-image: url(img/Opticos/VideoBG.png);
+  color: antiquewhite;
+  margin-bottom: 25px;
+}
+
+.video .video__Portada .container__Portada .row__Portada .col__Portada .video__Titulo {
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Poppins', sans-serif;
+  color: rgba(36, 36, 36, 0.945);
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-top: 25px;
+}
+
+.video .video__Portada .container__Portada .row__Portada .col__Portada .video__Titulo .video__Parrafo {
+  color: #161513;
+}
+
+.video .row .col-12 video {
+  width: 85%    !important;
+  height: auto   !important;
+}
+
+.muestras__titulo {
+  padding: 10px;
+  margin-top: 25px;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Poppins', sans-serif;
+  color: rgba(36, 36, 36, 0.945);
+  margin-bottom: 20px;
+}
+
+.muestras__parrafo {
+  padding: 10px;
+  margin-top: 25px;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Poppins', sans-serif;
+  color: rgba(36, 36, 36, 0.945);
+  margin-bottom: 20px;
+}
+
+.muestras__logo {
+  height: 50px;
+}
+
+.muestras__container {
+  padding: 15px;
+  margin-top: 30px;
+}
+
+.muestras__row--second {
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.muestras__bc {
+  border: rgba(58, 57, 57, 0.103) solid 1px;
+  margin-bottom: 10px;
+}
+
+.muestras__bc:hover {
+  -webkit-box-shadow: 3px 3px 5px #999;
+          box-shadow: 3px 3px 5px #999;
+  background-color: white;
+}
+
+.muestras__img {
+  width: 100%;
+}
+
+.footer {
+  margin-top: 20px;
+}
+
+.footer .footer__container {
+  background-color: #212529 !important;
+}
+
+.footer .footer__container .footer__titulo {
+  color: #FF0000;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+
+.footer .footer__container .footer__texto {
+  text-align: justify;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+  color: antiquewhite;
+}
+
+.footer .footer__container ul li a {
+  text-decoration: none;
+}
+
+.footer .footer__container .footer__isologo {
+  border-radius: 50%;
+}
+
+.footer__link:visited {
+  color: #6C757D;
+}
+
+.banner__titulo--black {
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  text-shadow: 1px 1px 2px seashell;
+}
+
+.banner__parrafo--black {
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  text-shadow: 1px 1px 2px seashell;
+}
+
+.banner__titulo {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+.banner__parrafo {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+.banner__section {
+  margin-top: 50px;
+}
+
+.banner__container {
+  width: 100%;
+}
+
+header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  z-index: 1;
+  background-color: white;
+}
+
+header .header__logo {
+  width: 150px;
+}
+
+header .nav__ul .nav__li .nav__link {
+  text-decoration: none;
+  margin: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  color: rgba(12, 12, 12, 0.774);
+  font-size: large;
+}
+
+header .nav__ul .nav__li .nav__link:visited {
+  color: rgba(12, 12, 12, 0.774);
+}
+
+.header__containerFluid {
+  -webkit-box-shadow: 3px 3px 5px #999;
+          box-shadow: 3px 3px 5px #999;
+}
+
+.container-fluid {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color: darkslategrey;
+}
+
+.acceso:hover {
+  -webkit-transform: scale(1.05, 1.05);
+          transform: scale(1.05, 1.05);
+}
+
+.campaña {
+  width: 90%, auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.modal-content .modalHeader {
+  background-color: white;
+}
+
+.modal-header {
+  background-color: rgba(0, 0, 0, 0.658);
+}
+
+.logoModal {
+  width: 150px;
+}
+
+.flotante {
+  position: fixed;
+  right: 45px;
+  bottom: 35px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+
+ion-icon {
+  color: #c90505;
+}
+
+.redes {
+  margin-top: 30px;
+}
+
+.icon {
+  margin: 10px;
+}
+/*# sourceMappingURL=estilo.css.map */

@@ -1,0 +1,28 @@
+
+
+
+.footer{
+    margin-top: 20px;
+    .footer__container{
+        background-color: #212529!important;
+        .footer__titulo{
+            color: #FF0000;
+            font-family: 'Poppins', sans-serif;font-weight: 500;
+        }
+        .footer__texto{
+            text-align: justify;
+            font-family: 'Poppins', sans-serif;font-weight: 100;
+            color: antiquewhite;  
+        }
+        ul li a{
+            text-decoration: none;
+        }
+        .footer__isologo{
+            border-radius: 50%;
+        }
+    }
+}
+
+.footer__link:visited{
+    color: $colorVisited;
+}

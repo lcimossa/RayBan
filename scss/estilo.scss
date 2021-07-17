@@ -1,0 +1,56 @@
+@import "colores";
+@import "videoPortada";
+@import "muestras";
+@import "footer";
+@import "banner";
+@import "header";
+@import "acceso";
+@import "campaña";
+
+$width:10%; //Operaciones - Variables
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.modal-content .modalHeader{
+    background-color:$bgcolor ;
+    
+}
+.modal-header{
+    background-color:rgba(0, 0, 0, 0.658);
+}
+
+
+
+.logoModal{
+    width: 150px;
+}
+
+
+.flotante {
+    position:fixed;
+    right: 45px; 
+    bottom: 35px; 
+    border-radius: 50%; 
+    width: 30px; 
+    height: 30px; 
+}
+
+
+
+
+ion-icon {
+    color:rgb(201, 5, 5);
+}
+.redes{
+    margin-top: 30px;
+}
+.icon{
+    margin: 10px;
+}
+

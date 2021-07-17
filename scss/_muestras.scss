@@ -1,0 +1,49 @@
+$width:10%; //Operaciones - Variables
+@mixin muestras($pad,$marTop){ //MIXIN
+    padding: $pad;
+    margin-top: $marTop;
+}
+.muestras__titulo{
+    @include muestras(10px,25px); //MIXIN - INCLUDE
+    text-align: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    color: $colorTitulo;
+    //padding: 10px;
+    margin-bottom: 20px;
+    //margin-top: 25px;
+}
+.muestras__parrafo{
+    @include muestras(10px,25px); //MIXIN - INCLUDE
+    text-align: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    color: $colorTitulo;
+    //padding: 10px;
+    margin-bottom: 20px;
+    //margin-top: 25px;
+}
+.muestras__logo{
+    height: 50px;
+}
+.muestras__container{
+    @include muestras(15px,30px); //MIXIN - INCLUDE
+    //margin-top: 50px;   
+    //padding: 15px;
+}
+.muestras__row--second{
+    @include muestras(10px,20px); //MIXIN - INCLUDE
+    //margin-top: 20px;
+    //padding: 10px;
+}
+.muestras__bc{
+    border: $colorBordes solid 1px;
+    margin-bottom: 10px;
+    &:hover{
+        box-shadow:3px 3px 5px #999;
+    background-color: white;
+    }
+}
+.muestras__img{
+    width: $width*10;//Operaciones
+}
