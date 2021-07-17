@@ -4,20 +4,22 @@ $width:10%; //Operaciones - Variables
     margin-top: $marTop;
 }
 .muestras__titulo{
-    @include muestras(10px,25px); //MIXIN - INCLUDE
+    @include muestras(0px,25px); //MIXIN - INCLUDE
     text-align: center;
     align-items: center;
     font-family: 'Poppins', sans-serif;
+    font-weight: 600;
     color: $colorTitulo;
     //padding: 10px;
     margin-bottom: 20px;
     //margin-top: 25px;
 }
 .muestras__parrafo{
-    @include muestras(10px,25px); //MIXIN - INCLUDE
+    @include muestras(3px,25px); //MIXIN - INCLUDE
     text-align: center;
     align-items: center;
     font-family: 'Poppins', sans-serif;
+    font-weight: 300;
     color: $colorTitulo;
     //padding: 10px;
     margin-bottom: 20px;
