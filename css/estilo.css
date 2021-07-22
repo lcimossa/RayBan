@@ -209,6 +209,43 @@ header .nav__ul .nav__li .nav__link:visited {
   width: 90%, auto;
 }
 
+.sol__col {
+  padding: 5px;
+  margin: 0 !important;
+}
+
+#sol__Galeria img {
+  width: 100%;
+}
+
+.sol__container .sol__encabezado .sol__h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+
+.sol__container .sol__encabezado .sol__p {
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 50px;
+}
+
+.sol__container .sol__creativo .sol__h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  margin-top: 90px;
+}
+
+.sol__container .sol__creativo .sol__h6 {
+  font-family: 'Poppins', sans-serif;
+  margin-top: 15px;
+  margin-bottom: 90px;
+  text-align: justify;
+}
+
+.sol__img:hover {
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+}
+
 * {
   margin: 0;
   padding: 0;
