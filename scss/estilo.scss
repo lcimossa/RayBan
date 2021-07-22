@@ -7,6 +7,7 @@
 @import "acceso";
 @import "campaña";
 @import "sol";
+@import "opticos";
 
 $width:10%; //Operaciones - Variables
 
@@ -63,16 +64,5 @@ ion-icon {
     border-color: rgba(128, 128, 128, 0.322);
 }
 
-.sol__form{
-    height: 90%;
-    width: 90%;
-    margin: 40px;
-    padding: 10px;
-    border: solid;
-    border-color: rgba(128, 128, 128, 0.322);
-}
-.sol__modal-img:hover{
-transform: scale(1.1,1.1);
 
 
-}
