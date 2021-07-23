@@ -9,6 +9,7 @@
     .sol__encabezado{
         .sol__h1{
             font-family: 'Poppins', sans-serif; font-weight: 500;
+            padding: 0%;
         }
         .sol__p{
             font-family: 'Poppins', sans-serif;
@@ -44,3 +45,20 @@
 transform: scale(1.1,1.1);
 
 }
+.sol__principal{
+    .sol__h1{
+        font-family: 'Poppins', sans-serif; font-weight: 500;
+        padding: 0%;
+        margin-top: 50px;
+    }
+    .sol__p{
+        font-family: 'Poppins', sans-serif;
+        margin-bottom: 50px;
+    }
+}
+
+.sol__carousel{
+    margin: 20px;
+    margin-bottom: 50px;
+}
+

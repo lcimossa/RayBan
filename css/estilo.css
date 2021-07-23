@@ -221,6 +221,7 @@ header .nav__ul .nav__li .nav__link:visited {
 .sol__container .sol__encabezado .sol__h1 {
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
+  padding: 0%;
 }
 
 .sol__container .sol__encabezado .sol__p {
@@ -258,6 +259,23 @@ header .nav__ul .nav__li .nav__link:visited {
 .sol__modal-img:hover {
   -webkit-transform: scale(1.1, 1.1);
           transform: scale(1.1, 1.1);
+}
+
+.sol__principal .sol__h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  padding: 0%;
+  margin-top: 50px;
+}
+
+.sol__principal .sol__p {
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 50px;
+}
+
+.sol__carousel {
+  margin: 20px;
+  margin-bottom: 50px;
 }
 
 .opticos__h1 {
