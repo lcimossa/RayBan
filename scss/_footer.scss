@@ -1,29 +1,112 @@
 
-
-
-.footer{
-    margin-top: 20px;
-    .footer__container{
-        background-color: #212529!important;
-        .footer__titulo{
-            color: #FF0000;
-            font-family: 'Poppins', sans-serif;font-weight: 500;
+.footer__container{
+    width: 100%;
+    height: 429.562px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,auto);
+    background-color: #212529;
+    grid-template-areas:
+    "titulo titulo categorias contacto"
+    "redes redes redes redes"
+    "pie pie pie pie";   
+    .footer__titulo{
+        grid-area: titulo;
+        font-family: 'Poppins', sans-serif;
+        display: flex;
+        flex-wrap: wrap;
+        .footer__titulo-titulo{
+            font-weight: 600;
+            margin-top: 50px;
+            margin-left: 50px;
+            color: rgb(184, 5, 5);
+            width: 100%;
         }
-        .footer__texto{
+        .footer__titulo-texto{
+            font-weight: 500;
+            color: rgb(146, 158, 158);
+            margin-left: 50px;
             text-align: justify;
-            font-family: 'Poppins', sans-serif;font-weight: 100;
-            color: antiquewhite;  
-        }
-        ul li a{
-            text-decoration: none;
-        }
-        .footer__isologo{
-            border-radius: 50%;
+            margin-right: 50px;
+            margin-top: 10px;
+            width: 100%;
         }
     }
+    .footer__categorias{
+        grid-area: categorias;
+        font-family: 'Poppins', sans-serif;
+        display: flex;
+        flex-wrap: wrap;
+        .footer__categorias-titulo{
+            font-weight: 600;
+            margin-top: 50px;
+            color: rgb(184, 5, 5);
+            width: 100%;
+            margin-left: 50px;
+        }
+        .footer__categorias-ul{
+            width: 100%;
+            font-weight: 500;
+            list-style: none; 
+            padding: 0px; 
+            margin-left: 50px;
+            .footer__categorias-link{
+                text-decoration: none;
+                color: rgb(146, 158, 158);
+            }
+        }
+    
+    }
+    .footer__contacto{
+        grid-area: contacto;
+        display: flex;
+        flex-wrap: wrap;
+        font-family: 'Poppins', sans-serif;
+        .footer__contacto-titulo{
+            font-weight: 600;
+            margin-top: 50px;
+            color: rgb(184, 5, 5);
+            width: 100%;
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+        .footer__contacto-texto{
+            width: 100%;
+            font-weight: 500;
+            color: rgb(146, 158, 158);
+            list-style: none;   
+            padding: 0px; 
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+    }
+    .footer__redes{
+        display: flex;
+        flex-wrap: wrap;
+        grid-area: redes;
+        margin-left: 40px;
+    }
+    .footer__r{
+        display: flex;
+        flex-wrap: wrap;
+        grid-area: pie;
+        margin-left: 50px;
+    }                
+}
+@media only screen and (max-width: 700px) {
+    .footer__container{    
+        width: 100%;
+        height: auto;  
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(4,auto);
+        grid-template-areas: 
+            "titulo titulo"
+            "categorias contacto"
+            "redes redes"
+            "pie pie";
+    } 
+   
 }
 
-.footer__link:visited{
-    color: $colorVisited;
-}
-
+   

@@ -83,37 +83,152 @@
   width: 100%;
 }
 
-.footer {
-  margin-top: 20px;
+.footer__container {
+  width: 100%;
+  height: 429.562px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  -ms-grid-rows: (auto)[4];
+      grid-template-rows: repeat(4, auto);
+  background-color: #212529;
+      grid-template-areas: "titulo titulo categorias contacto" "redes redes redes redes" "pie pie pie pie";
 }
 
-.footer .footer__container {
-  background-color: #212529 !important;
-}
-
-.footer .footer__container .footer__titulo {
-  color: #FF0000;
+.footer__container .footer__titulo {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: titulo;
   font-family: 'Poppins', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.footer__container .footer__titulo .footer__titulo-titulo {
+  font-weight: 600;
+  margin-top: 50px;
+  margin-left: 50px;
+  color: #b80505;
+  width: 100%;
+}
+
+.footer__container .footer__titulo .footer__titulo-texto {
   font-weight: 500;
-}
-
-.footer .footer__container .footer__texto {
+  color: #929e9e;
+  margin-left: 50px;
   text-align: justify;
+  margin-right: 50px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.footer__container .footer__categorias {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: categorias;
   font-family: 'Poppins', sans-serif;
-  font-weight: 100;
-  color: antiquewhite;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
-.footer .footer__container ul li a {
+.footer__container .footer__categorias .footer__categorias-titulo {
+  font-weight: 600;
+  margin-top: 50px;
+  color: #b80505;
+  width: 100%;
+  margin-left: 50px;
+}
+
+.footer__container .footer__categorias .footer__categorias-ul {
+  width: 100%;
+  font-weight: 500;
+  list-style: none;
+  padding: 0px;
+  margin-left: 50px;
+}
+
+.footer__container .footer__categorias .footer__categorias-ul .footer__categorias-link {
   text-decoration: none;
+  color: #929e9e;
 }
 
-.footer .footer__container .footer__isologo {
-  border-radius: 50%;
+.footer__container .footer__contacto {
+  -ms-grid-row: 1;
+  -ms-grid-column: 4;
+  grid-area: contacto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  font-family: 'Poppins', sans-serif;
 }
 
-.footer__link:visited {
-  color: #6C757D;
+.footer__container .footer__contacto .footer__contacto-titulo {
+  font-weight: 600;
+  margin-top: 50px;
+  color: #b80505;
+  width: 100%;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.footer__container .footer__contacto .footer__contacto-texto {
+  width: 100%;
+  font-weight: 500;
+  color: #929e9e;
+  list-style: none;
+  padding: 0px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.footer__container .footer__redes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
+  grid-area: redes;
+  margin-left: 40px;
+}
+
+.footer__container .footer__r {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
+  grid-area: pie;
+  margin-left: 50px;
+}
+
+@media only screen and (max-width: 700px) {
+  .footer__container {
+    width: 100%;
+    height: auto;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    -ms-grid-rows: (auto)[4];
+        grid-template-rows: repeat(4, auto);
+        grid-template-areas: "titulo titulo" "categorias contacto" "redes redes" "pie pie";
+  }
 }
 
 .banner__titulo--black {
